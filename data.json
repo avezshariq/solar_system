@@ -1,0 +1,29 @@
+{
+    "sun": {
+        "radius": 9000
+    },
+    "mercury": {
+        "radius": 3000
+    },
+    "venus": {
+        "radius": 6278
+    },
+    "earth": {
+        "radius": 6378
+    }, 
+    "mars": {
+        "radius": 5000
+    },
+    "jupiter": {
+        "radius": 7000
+    },
+    "saturn": {
+        "radius": 6500
+    },
+    "uranus": {
+        "radius": 6200
+    },
+    "neptune": {
+        "radius": 6000
+    }
+}
