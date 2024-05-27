@@ -9,6 +9,7 @@ FPS = 24
 
 # splash_screen(screen=screen, FPS=FPS)
 # menu(screen=screen, FPS=FPS)
-compare_size(screen=screen, FPS=FPS)
+# speed_of_revolution(screen=screen, FPS=FPS)
+year_time(screen=screen, FPS=FPS)
 
 pygame.quit()
