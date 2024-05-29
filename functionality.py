@@ -156,6 +156,13 @@ def menu(screen: pygame.Surface, FPS: int):
         screen=screen,
         FPS=FPS,
     )
+    year_revolution_button = Button(
+        text="Years for Revolution",
+        position=(1000, 500),
+        callback_func=year_time,
+        screen=screen,
+        FPS=FPS,
+    )
     while app_running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -164,6 +171,7 @@ def menu(screen: pygame.Surface, FPS: int):
                 compare_size_button.click()
                 compare_rotation_button.click()
                 speed_of_revolution_button.click()
+                year_revolution_button.click()
 
         bg = pygame.image.load(f"green/green{counter:04}.jpg")
 
@@ -180,6 +188,8 @@ def menu(screen: pygame.Surface, FPS: int):
         compare_rotation_button.draw()
         speed_of_revolution_button.hover()
         speed_of_revolution_button.draw()
+        year_revolution_button.hover()
+        year_revolution_button.draw()
         if counter > 239:
             counter = 1
         counter += 1
